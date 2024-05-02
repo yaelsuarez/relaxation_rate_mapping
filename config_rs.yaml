@@ -1,0 +1,9 @@
+# Root is the pathway of a folder containing folders of the different echo times in .dcm files 
+root: "/Users/yaesu539/Library/CloudStorage/OneDrive-Uppsalauniversitet/PhD/DATA/MRI/20230425_FakeIntestines_DLS/Fake_Intestine_A1_P1/DICOM/T2"
+# Render parameters
+vol_to_fit_file: "fitted_volume_4-4p5_ms.npz"
+fit_rs: false # fits the rs of the volume
+opacity_map: [0, 0.1, 0.2, 0.5, 0.5, 0.5, 1, 1, 1, 1, 1] # Determines color of render
+clim: [0, 100] # Determines color of render
+background: black # Determines color of background
+colormap: inferno
